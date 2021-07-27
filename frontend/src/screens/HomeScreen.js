@@ -12,7 +12,7 @@ import products from '../products';
 const HomeScreen = () => {
   // Products List
   const productEl = products.map(product => (
-    <Col sm={12} md={6} lg={4} xl={3}>
+    <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
       <Product product={product} />
     </Col>
   ));
