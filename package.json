@@ -1,0 +1,22 @@
+{
+  "name": "pro-shop-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fapjsc/pro-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fapjsc/pro-shop/issues"
+  },
+  "homepage": "https://github.com/fapjsc/pro-shop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
