@@ -7,3 +7,5 @@ react-router-bootstrap => 讓 react-router-dom 的 link 可以使用 bootstrap s
 concurrently => 同時運行前後端 server
 
 dotenv => 環境變量
+
+colors.js => console.log 可以多一點顏色
