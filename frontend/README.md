@@ -2,7 +2,7 @@ react-bootstrap watch 各種 bootstrap 現成的主題
 
 cdnjs.org 各種 cen 連結
 
-react-router-bootstrap
+react-router-bootstrap => 讓 react-router-dom 的 link 可以使用 bootstrap style
 
 concurrently => 同時運行前後端 server
 
