@@ -11,6 +11,10 @@ router.get(
   '/',
   asyncHandler(async (req, res) => {
     const products = await Product.find({});
+
+    // 測試錯誤訊息
+    // res.status(401);
+    // throw new Error('Test Error Message');
     res.json(products);
   })
 );
@@ -22,6 +26,9 @@ router.get(
   '/:id',
   asyncHandler(async (req, res) => {
     const product = await Product.findById(req.params.id);
+    // 測試錯誤訊息
+    // res.status(401);
+    // throw new Error('Test Error Message');
     if (product) {
       res.json(product);
     } else {
