@@ -25,7 +25,8 @@ router.get(
     if (product) {
       res.json(product);
     } else {
-      res.status(404).json({ message: 'Product not found!' });
+      res.status(404); // 可以不設定404，不設定的話返回500
+      throw new Error(`Product not found - ${req.params.id}`);
     }
   })
 );
