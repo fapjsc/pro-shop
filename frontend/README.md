@@ -9,3 +9,5 @@ concurrently => 同時運行前後端 server
 dotenv => 環境變量
 
 colors.js => console.log 可以多一點顏色
+
+bcryptjs => 將 user 密碼 hash 後儲存到數據庫
