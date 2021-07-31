@@ -11,3 +11,5 @@ dotenv => 環境變量
 colors.js => console.log 可以多一點顏色
 
 bcryptjs => 將 user 密碼 hash 後儲存到數據庫
+
+express-async-handler => 處理非同步錯誤的中間件
