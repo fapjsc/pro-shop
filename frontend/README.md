@@ -22,3 +22,11 @@ reducer => 依據 action.type 建立不同的狀態處理, 也可以設置 defau
 store => 將 reducer 加入 store
 action => 建立非同步請求
 screen => import useDispatch, useSelector and action, define dispatch, dispatch(action(arg)), get state, render
+
+數據轉換
+input 一個 number 4
+output [1, 2, 3, 4]
+
+input 一個 number 6
+output [1, 2, 3, 4, 5, 6]
+[...Array(Number).keys()]
